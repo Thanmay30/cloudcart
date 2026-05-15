@@ -1,0 +1,20 @@
+{
+  "name": "cloudcart",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CloudCart — Serverless Order Processing System on AWS (CDK)",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "test": "npm run build && npx cdk synth"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "aws-cdk": "^2.170.0",
+    "aws-cdk-lib": "^2.170.0",
+    "constructs": "^10.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.6.3"
+  }
+}
